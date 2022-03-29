@@ -150,9 +150,12 @@ GEM
       io-console (~> 0.5)
     strscan (3.0.1)
     thor (1.2.1)
+    timeliness (0.4.4)
     timeout (0.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    validates_timeliness (5.0.0)
+      timeliness (>= 0.3.10, < 1)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -168,6 +171,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.3)
   tzinfo-data
+  validates_timeliness
 
 RUBY VERSION
    ruby 3.0.3p157
